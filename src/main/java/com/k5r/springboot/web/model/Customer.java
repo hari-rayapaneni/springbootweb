@@ -1,6 +1,16 @@
 package com.k5r.springboot.web.model;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Customer {
+	
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Id
+	private long id;
 	
 	private String name;
 	private String address;

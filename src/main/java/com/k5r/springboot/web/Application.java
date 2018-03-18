@@ -19,7 +19,7 @@ public class Application {
 
 	}
 
-	@Bean
+	/*@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
 			String[] beanNames = ctx.getBeanDefinitionNames();
@@ -29,5 +29,5 @@ public class Application {
 			
 		};
 		
-	}
+	}*/
 }
